@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AJAX getHint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <p><b>Start typing a country name in the input field below:</b></p>
+    <form>
+      Country: <input type="text" onkeyup="showHint(this.value)">
+    </form>
+    <p>Suggestions: <br><br> <span id="txtHint"></span></p>
+  </div>
+</body>
+
+<script src="ajax.js" charset="utf-8"></script>
+
+</html>

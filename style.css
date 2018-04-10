@@ -1,0 +1,13 @@
+body {
+  color: white;
+  background-image: url("https://previews.123rf.com/images/almoond/almoond1504/almoond150400004/38727468-globe-on-a-background-with-flags-of-the-world-vector-.jpg");
+  background-size: cover;
+  background-repeat:
+}
+
+div {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+}
